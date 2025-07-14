@@ -1,0 +1,108 @@
+.center-container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.center-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.center-container form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.center-container input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.center-container button {
+  padding: 10px 15px;
+  background-color: #2d89ef;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.center-container button:hover {
+  background-color: #1b5bbf;
+}
+
+.center-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.center-container li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 8px;
+  border-bottom: 1px solid #eee;
+  align-items: center;
+  cursor: default;
+}
+
+.center-container li.done span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.center-container li span {
+  flex-grow: 1;
+  user-select: none;
+  cursor: pointer;
+}
+
+.center-container li div {
+  display: flex;
+  gap: 8px;
+}
+
+.center-container li input[type="text"] {
+  flex-grow: 1;
+  padding: 6px 8px;
+  font-size: 16px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.center-container li button {
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.center-container li button:hover {
+  opacity: 0.8;
+}
+
+.center-container li button:first-of-type {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.center-container li button:last-of-type {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
